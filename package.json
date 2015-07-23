@@ -1,0 +1,30 @@
+{
+  "name": "generator-react-baseplate",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "theogravity/generator-react-baseplate",
+  "author": {
+    "name": "Theo Gravity",
+    "email": "theo@suteki.nu",
+    "url": "https://github.com/theogravity"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
