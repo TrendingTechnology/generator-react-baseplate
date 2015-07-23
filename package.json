@@ -17,7 +17,8 @@
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "react-baseplate"
   ],
   "dependencies": {
     "yeoman-generator": "^0.19.0",
