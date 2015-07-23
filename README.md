@@ -2,6 +2,7 @@
 
 > [Yeoman](http://yeoman.io) generator
 
+Yeoman generator to generate a react component that utilizes [react-baseplate](https://github.com/theogravity/react-baseplate).
 
 ## Getting Started
 
