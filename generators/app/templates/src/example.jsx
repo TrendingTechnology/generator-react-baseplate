@@ -19,15 +19,21 @@ const <%= displayName %> = React.createClass({
       // Example code to display.
       // Using es6 template strings for flexibility
       code: `<<%= displayName %> />`
-    }
-  },
+    },
+    // allow static access to the component's stylesheet
+    styles: require('./styles')
+},
   // The following comments in propTypes are parsed by react-docgen
   // and used by react-styleguide-generator
   propTypes: {
     /**
      * Default text to show when values is not defined
      */
-    defaultText: React.PropTypes.string
+    defaultText: React.PropTypes.string,
+    /**
+     * A radium stylesheet to apply
+     */
+    styles: React.PropTypes.object
   },
 
   getDefaultProps() {
@@ -39,7 +45,7 @@ const <%= displayName %> = React.createClass({
 
   render() {
     return (
-      <input type="text" defaultValue={this.props.defaultText} />
+      <input type="text" style={[<%= displayName %>.styles.base, this.props.styles]} defaultValue={this.props.defaultText} />
     )
   }
 })

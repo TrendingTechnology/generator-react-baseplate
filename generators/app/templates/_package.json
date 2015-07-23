@@ -6,7 +6,7 @@
     "dev": "grunt react-baseplate-dev"
   },
   "dependencies": {
-    "react-baseplate": "^0.0.5"
+    "react-baseplate": "^0.0.7"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

@@ -72,6 +72,19 @@ module.exports = yeoman.generators.Base.extend({
         }
       );
 
+      this.fs.copy(
+        this.templatePath('src/styles.js'),
+        this.destinationPath('src/styles.js')
+      );
+
+      this.fs.copyTpl(
+        this.templatePath('src/example.js'),
+        this.destinationPath('src/' + this.componentFileName + '.js'),
+        { displayName: this.displayName,
+          componentFileName: this.componentFileName
+        }
+      );
+
     },
     testFiles: function() {
       this.fs.copyTpl(

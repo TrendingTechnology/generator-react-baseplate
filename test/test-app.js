@@ -21,6 +21,8 @@ describe('react-baseplate:app', function () {
     assert.file([
       'examples/test-component.jsx',
       'src/test-component.jsx',
+      'src/test-component.js',
+      'src/styles.js',
       'test/client/lib/app.js',
       'test/client/test.spec.js',
       'Gruntfile.js',
