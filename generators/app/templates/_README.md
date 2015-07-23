@@ -1,6 +1,10 @@
 <%= packageName %>
 ==================
 
+### Building / testing / viewing the component
+
+`npm run dev`
+
 ### Directory structure
 
 - `src/`: Where your base component(s) go. 
@@ -11,7 +15,9 @@
 - `test/`: Area for tests.
 - `test/client/`: Area for `karma` tests. Files must end in `test.spec.js`.
 
-### Building / testing / viewing the component
+### Build directories
 
-`npm run dev`
+- `lib/`: Contains transpiled and sourcemap files from `src/`, used for inclusion with other projects.
+- `artifacts/docs/style-guide/index.html`: Generated React component documentation
+
 

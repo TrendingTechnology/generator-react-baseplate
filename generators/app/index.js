@@ -89,8 +89,13 @@ module.exports = yeoman.generators.Base.extend({
 
     }
   },
-
   install: function () {
     this.installDependencies();
+  },
+  complete: function() {
+    this.log(yosay(
+      'Use ' + chalk.green('npm run dev') + ' to launch the component workflow after package dependencies have finished installing.'
+    ));
+
   }
 });
