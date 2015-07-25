@@ -2,7 +2,7 @@
 
 const React = require('react')
 const <%= displayName %> = require('../src/<%= componentFileName %>.js')
-const extend = require('extend')
+const xtend = require('xtend')
 
 const <%= displayName %>Example = React.createClass({
   displayName: '<%= displayName %>Example',
@@ -11,7 +11,7 @@ const <%= displayName %>Example = React.createClass({
     // for usage info
     // we use extend() to inherit off the base component's styleguide so it can be
     // read by the styleguide generator and spares us from repeating code
-    styleguide: extend(<%= displayName %>.styleguide, {
+    styleguide: xtend(<%= displayName %>.styleguide, {
       // we put in an instance of the component we want to derive additional examples out of
       exampleComponent: <%= displayName %>,
       examples: [
