@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "postinstall": "grunt react-baseplate-deps",
-    "dev": "grunt react-baseplate-dev"
+    "view-docs": "grunt view-styleguide",
+    "dev": "grunt react-baseplate-dev",
+    "dist": "grunt react-baseplate-dist"
   },
   "dependencies": {
-    "react-baseplate": "~0.0.9"
+    "react-baseplate": "~0.0.14"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

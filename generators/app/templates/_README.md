@@ -1,9 +1,20 @@
 <%= packageName %>
 ==================
 
-### Building / testing / viewing the component
+### View usage documentation
+
+`npm run view-docs`
+
+### Development (lint / livereload / karma tests)
 
 `npm run dev`
+
+### Distribution
+
+`npm run dist`
+
+- transpiles `src/` to `dist/`
+- generates styleguide documentation into `artifacts/docs/style-guide/`
 
 ### Directory structure
 
