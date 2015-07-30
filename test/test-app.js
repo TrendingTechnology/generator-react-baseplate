@@ -25,6 +25,7 @@ describe('react-baseplate:app', function () {
       'src/styles.js',
       'test/client/lib/app.js',
       'test/client/test.spec.js',
+      '.gitignore',
       'Gruntfile.js',
       'package.json',
       'README.md'

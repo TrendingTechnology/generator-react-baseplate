@@ -49,6 +49,11 @@ module.exports = yeoman.generators.Base.extend({
         this.destinationPath('Gruntfile.js')
       );
 
+      this.fs.copy(
+        this.templatePath('_.gitignore'),
+        this.destinationPath('.gitignore')
+      );
+
       this.fs.copyTpl(
         this.templatePath('_README.md'),
         this.destinationPath('README.md'),

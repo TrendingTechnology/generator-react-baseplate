@@ -5,9 +5,15 @@
 
 `npm run view-docs`
 
-### Development (lint / livereload / karma tests)
+### Development 
+
+#### (lint / livereload)
 
 `npm run dev`
+
+#### (lint / livereload / karma)
+
+`npm run dev-test`
 
 ### Distribution
 

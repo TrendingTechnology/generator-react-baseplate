@@ -5,10 +5,11 @@
     "postinstall": "grunt react-baseplate-deps",
     "view-docs": "grunt view-styleguide",
     "dev": "grunt react-baseplate-dev",
+    "dev-test": "grunt react-baseplate-dev-test",
     "dist": "grunt react-baseplate-dist"
   },
   "dependencies": {
-    "react-baseplate": "~0.0.14"
+    "react-baseplate": "~0.0.16"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

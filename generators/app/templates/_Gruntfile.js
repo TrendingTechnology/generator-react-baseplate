@@ -6,4 +6,18 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('react-baseplate')
 
+  /* Use to override any config from react-baseplate
+  grunt.config.merge({
+    'react-styleguide': {
+      options: {
+        configFile: {
+          files: [
+            process.cwd() + '/src/vendor/test.css'
+          ]
+        }
+      }
+    }
+  })
+  */
+
 }
