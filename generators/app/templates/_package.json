@@ -10,7 +10,7 @@
     "prepublish": "grunt react-baseplate-dist"
   },
   "dependencies": {
-    "react-baseplate": "~0.0.16"
+    "react-baseplate": "~0.0.18"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
