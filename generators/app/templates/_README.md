@@ -17,10 +17,7 @@
 
 ### Distribution
 
-`npm run dist`
-
-- transpiles `src/` to `dist/`
-- generates styleguide documentation into `artifacts/docs/style-guide/`
+- Remove the default `postinstall` in `package.json` as you now have your deps
 
 ### Directory structure
 
