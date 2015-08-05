@@ -1,6 +1,8 @@
 <%= packageName %>
 ==================
 
+**Note** Permanently remove `"postinstall": "grunt react-baseplate-deps"` from your `package.json` after install. Not doing this will cause installation issues when this module is used in another project.
+
 ### View usage documentation
 
 `npm run view-docs`
