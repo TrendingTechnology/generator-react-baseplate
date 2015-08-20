@@ -26,6 +26,7 @@ describe('react-baseplate:app', function () {
       'test/client/lib/app.js',
       'test/client/test.spec.js',
       '.gitignore',
+      '.npmignore',
       'Gruntfile.js',
       'package.json',
       'README.md'

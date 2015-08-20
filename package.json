@@ -1,6 +1,6 @@
 {
   "name": "generator-react-baseplate",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Yeoman generator for react-baseplate to create react components with documentation and testing.",
   "license": "MIT",
   "main": "app/index.js",
